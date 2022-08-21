@@ -1,5 +1,29 @@
 /* *Container */
 main.container{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+}
+
+/* *Card */
+main .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* Card Header */
+main .card .card-header{
+    grid-area: 1 / 1 / span 1 / span 2;
+    background-color: #fff;
+}
+
+/* Card Price */
+main .card .card-price{
+    background-color: var(--cyan);
+}
+
+/* Card Why Us */
+main .card .card-why-us{
+    background-color: hsla(179, 62%, 43%, 0.7);
 }

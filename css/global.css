@@ -33,7 +33,7 @@ body{
 
 ul{
     list-style-type: none;
-    color: var(--grayish-blue);
+    color: var(--light-gray);
     font-weight: 400;
 }
 
