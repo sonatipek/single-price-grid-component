@@ -45,9 +45,35 @@ main .card .card-price{
     padding: 2.5rem 2.5rem;
 }
 main .card .card-price h3{
-    background-color: var(--cyan);
-    border-radius: 0 0 0 10px;
+    color: #fff;
 }
+main .card .card-price p:nth-child(2){
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.441);
+    margin-top: 1rem;
+}
+main .card .card-price p span{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+main .card .card-price p:nth-child(3){
+    color: var(--light-gray);
+    margin-top: .5rem;
+}
+main .card .card-price a{
+    display: block;
+    text-align: center;
+    background-color: var(--bright-yellow);
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
 
 /* Card Why Us */
 main .card .card-why-us{
