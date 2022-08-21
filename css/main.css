@@ -95,7 +95,7 @@ main .card .card-why-us h3{
 main .card .card-why-us li{
     font-size: .875rem;
     font-weight: 300;
-    color: hsla(204, 43%, 93%, .8);
+    color: rgba(255, 255, 255, .6);
     line-height: 1.5;
 }
 
