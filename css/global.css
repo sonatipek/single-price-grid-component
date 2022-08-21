@@ -46,3 +46,7 @@ a{
     width: 1440px;
     min-height: 95vh;
 }
+
+.seo-only{
+    display: none;
+}
