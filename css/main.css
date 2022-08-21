@@ -71,7 +71,7 @@ main .card .card-price a{
     border: 2px solid var(--bright-yellow);
     border-radius: 5px;
     font-weight: 700;
-    padding: 1rem 2rem;
+    padding: .75rem 1.5rem;
     margin-top: 2rem;
     box-shadow: 1px 3px 10px hsl(179, 75%, 30%);
     transition: background-color .3s;
@@ -100,7 +100,7 @@ main .card .card-why-us li{
 }
 
 
-/* Footer */
+/* *Footer */
 .attribution{ 
     font-size: 11px; 
     text-align: center; 
