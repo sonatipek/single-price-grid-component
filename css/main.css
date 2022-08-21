@@ -68,12 +68,19 @@ main .card .card-price a{
     display: block;
     text-align: center;
     background-color: var(--bright-yellow);
-    padding: 1rem 2rem;
-    font-weight: 700;
+    border: 2px solid var(--bright-yellow);
     border-radius: 5px;
+    font-weight: 700;
+    padding: 1rem 2rem;
     margin-top: 2rem;
+    box-shadow: 1px 3px 10px hsl(179, 75%, 30%);
+    transition: background-color .3s;
 }
-
+main .card .card-price a:hover{
+    background-color: transparent;
+    color: var(--bright-yellow);
+    box-shadow: none;
+}
 
 /* Card Why Us */
 main .card .card-why-us{
@@ -83,10 +90,11 @@ main .card .card-why-us{
 }
 main .card .card-why-us h3{
     color: var(--light-gray);
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 main .card .card-why-us li{
-    font-weight: 400;
-    color: var(--light-gray);
-    margin-top: .375rem;
+    font-size: .875rem;
+    font-weight: 300;
+    color: hsla(204, 43%, 93%, .8);
+    line-height: 1.5;
 }
