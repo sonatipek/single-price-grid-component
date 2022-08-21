@@ -98,3 +98,16 @@ main .card .card-why-us li{
     color: hsla(204, 43%, 93%, .8);
     line-height: 1.5;
 }
+
+
+/* Footer */
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a{
+    color: var(--cyan); 
+}
+.attribution a:hover{
+    text-decoration: underline;
+}
