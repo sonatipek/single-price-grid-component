@@ -81,3 +81,12 @@ main .card .card-why-us{
     border-radius: 0 0 10px 0px;
     padding: 2.5rem 2.5rem;
 }
+main .card .card-why-us h3{
+    color: var(--light-gray);
+    margin-bottom: 1rem;
+}
+main .card .card-why-us li{
+    font-weight: 400;
+    color: var(--light-gray);
+    margin-top: .375rem;
+}
