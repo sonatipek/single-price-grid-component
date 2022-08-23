@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-grid-component-using-css-grid-UHw7aNXFax)
 - Live Site URL: [Vercel](https://single-price-grid-component-indol-kappa.vercel.app/)
 
 ## My process
